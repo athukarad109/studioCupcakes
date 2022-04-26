@@ -1,41 +1,133 @@
+@font-face {
+    font-family: poppins;
+    src: url("fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: AbrilFat;
+    src: url("fonts/AbrilFatface-Regular.ttf");
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url("fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: RalBold;
+    src: url("fonts/Raleway-SemiBold.ttf");
+}
+
 body {
-    background-image: url("bg.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 105vh;
-    /* overflow: hidden; */
-    /* 100% 100vh */
+    background-color: #f3f5f8;
 }
 
-.col-auto {
-    margin: 5px;
-}
-
-.center-item {
-    margin: 0 auto;
+.left {
     width: 50%;
+    height: 80vh;
+    float: left;
+    /* border: 2px solid #000000; */
+    vertical-align: middle;
 }
 
-.form {
-    margin-top: 10%;
-    position: static;
+.right {
+    width: 50%;
+    height: 80vh;
+    float: right;
+    /* border: 2px solid black; */
 }
 
-.socials a {
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
     color: white;
-    margin: 10px;
-}
-
-.socials {
     text-align: center;
 }
 
-.txt {
-    text-align: center;
-    margin-top: 15%;
+.footer a {
+    color: white;
+    margin-right: 33px;
+}
+
+form {
+    margin: 0 auto;
+    width: 70%;
+    vertical-align: middle;
+    margin-top: 5%;
+}
+
+textarea {
+    resize: none;
 }
 
 .navbar-brand {
-    width: 60%;
-    height: 60%;
+    margin: 20px 20px;
+    margin-left: 6%;
+}
+
+.navbar-brand img {
+    width: 70%;
+    height: 70%;
+}
+
+.title {
+    margin: 0 auto;
+    margin-top: 5%;
+    /* border: 2px solid green; */
+    width: 75%;
+}
+
+.content {
+    margin: 0 auto;
+    margin-top: 5%;
+    /* border: 2px solid green; */
+    width: 75%;
+    font-family: Raleway;
+    color: black;
+}
+
+.title h2 {
+    font-size: 65px;
+    text-align: left;
+    font-family: AbrilFat;
+    color: black;
+}
+
+.btn {
+    background-color: #ff4800;
+    border: none;
+}
+
+.arraow {
+    margin: 0 auto;
+    margin-top: 5%;
+    /* border: 2px solid green; */
+    width: 75%;
+    color: #ff4800;
+}
+
+.content-p {
+    color: black;
+    font-size: 16px;
+}
+
+.example {
+    margin: 0 auto;
+    margin-top: 3%;
+    font-family: Raleway;
+    /* border: 2px solid green; */
+    width: 75%;
+    color: #ff4800;
+}
+
+.example .heading {
+    font-weight: bold;
+}
+
+.example-text {
+    color: rgb(158, 158, 158);
 }

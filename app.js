@@ -15,8 +15,10 @@ app.get("/", function(req, res) {
 app.post("/", function(req, res) {
     let name = req.body.Name;
     let email = req.body.email;
+    let desc = req.body.description;
     console.log(name);
     console.log(email);
+    console.log(desc);
     res.redirect("/");
 })
 
